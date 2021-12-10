@@ -1,0 +1,15 @@
+Test Scenarios
+
+
+1. To verify that when valid e-mails are entered and login button is clicked no error msg is displayed
+against the email field.
+2. To verify that when invalid e-mails are entered and login button is clicked then an error msg is 
+displayed against the email field.
+3. To verify all the required fields by not filling any data and directly clicking on login button.
+4. To verify that the "remember me" check box is functioning as expected.
+5. To verify that the alignment of all the fields is correct.
+6. To verify when correct email and invalid password are entered and clicked on login , proper message 
+is displayed.
+7. To verify that when both email and password combination is correct user is successfully logged in .
+8. To verify that the password field is encrypted.
+9. To verify that on click of login button a post api is being hit .      

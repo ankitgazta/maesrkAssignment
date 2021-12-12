@@ -1,0 +1,8 @@
+package pageObjects;
+
+
+
+//this is the java class for the page objects of Blazedemo Home page 
+public class BlazeDemoHomePage {
+
+}

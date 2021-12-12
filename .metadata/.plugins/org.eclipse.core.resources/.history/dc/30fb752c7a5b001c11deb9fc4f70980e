@@ -1,0 +1,60 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+
+import baseClass.BaseTestClass;
+
+public class FillClientDetailsPage extends BaseTestClass{
+	
+	public String name_txtBx="//input[@id='inputName']";
+	public String address_txtBx="//input[@id='address']";
+	public String city_txtBx="//input[@name='city']";
+	public String state_txtBx="//input[@name='state']";
+	public String zipCode_txtbx="//input[@name='zipCode']";
+	public String cardType_DD="//select[@name='cardType']";
+	public String creditCardNumber_txtBx="//input[@id='creditCardNumber']";
+	public String month_txtBx="//input[@id='creditCardMonth']";	
+	public String year_txtBx="//input[@id='creditCardYear']";
+	public String nameOnCard_txtBx="//input[@id='nameOnCard']";
+	public String rememberMe_chkbx="//input[@name='rememberMe' ]";
+	public String purchaseFligt_Btn="//input[@value='Purchase Flight' ]";
+	
+	
+	
+	public void fillName(String name)
+	{
+		driver.findElement(By.xpath(name_txtBx)).sendKeys(name);
+	}
+	
+	public void fillAddress(String name)
+	{
+		driver.findElement(By.xpath(name_txtBx)).sendKeys(name);
+	}
+	
+	public void fillCity(String name)
+	{
+		driver.findElement(By.xpath(name_txtBx)).sendKeys(name);
+	}
+	
+	public void fillState(String name)
+	{
+		driver.findElement(By.xpath(name_txtBx)).sendKeys(name);
+	}
+	
+	public void fillZipCode(String name)
+	{
+		driver.findElement(By.xpath(name_txtBx)).sendKeys(name);
+	}
+	
+	public void fillCreditCardNumber(String name)
+	{
+		driver.findElement(By.xpath(name_txtBx)).sendKeys(name);
+	}
+	
+	
+	
+	
+	
+	
+	
+}

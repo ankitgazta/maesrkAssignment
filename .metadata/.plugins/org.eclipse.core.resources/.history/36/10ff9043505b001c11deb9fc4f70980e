@@ -1,0 +1,19 @@
+package pageObjects;
+
+import baseClass.BaseTestClass;
+
+public class FillClientDetailsPage extends BaseTestClass{
+	
+	public String name_txtBx="//input[@id='inputName']";
+	public String address="//input[@id='address']";
+	public String city="";
+	public String state="";
+	public String zipCode="";
+	public String cardType="";
+	public String creditCardNumber="";
+	public String month_txtBx="//input[@id='creditCardMonth']";	
+	public String year_txtBx="//input[@id='creditCardYear']";
+	public String nameOnCard_txtBx="//input[@id='nameOnCard']";
+	public String rememberMe_chkbx="//input[@name='rememberMe' ]";
+	public String purchaseFligt_Btn="//input[@value='Purchase Flight' ]";
+}

@@ -1,0 +1,7 @@
+package pageObjects;
+
+import baseClass.BaseTestClass;
+
+public class FlightSelectionPage extends BaseTestClass{
+
+}

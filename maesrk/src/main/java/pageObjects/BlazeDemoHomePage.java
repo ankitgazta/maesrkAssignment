@@ -14,7 +14,7 @@ public class BlazeDemoHomePage extends BaseTestClass {
 	public String findFlights_Btn="//input[@value='Find Flights']";
 	
 	
-	public void selectDepartureCity(String departuredropdown,String departurecityname)
+	public void selectDepartureCity(String departurecityname)
 	{
 		
 		Select dd1 = new Select(driver.findElement(By.xpath(chooseCity_DD)));
@@ -22,7 +22,7 @@ public class BlazeDemoHomePage extends BaseTestClass {
 	}
 	
 	
-	public void selectDestinationCity(String destinationdropdown,String destinatiomcityname)
+	public void selectDestinationCity(String destinatiomcityname)
 	{
 		
 		Select dd2 = new Select(driver.findElement(By.xpath(chooseDestination_DD)));

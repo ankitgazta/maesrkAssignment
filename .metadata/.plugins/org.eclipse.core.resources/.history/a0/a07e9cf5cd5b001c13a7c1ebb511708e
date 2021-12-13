@@ -1,0 +1,39 @@
+package apiTestCases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+
+import static io.restassured.RestAssured.*;
+
+import java.text.ParseException;
+
+
+public class WeatherAPI {
+	
+	@Test
+	public void getWeatherByUSACityname(String city,String apiKey)
+	{
+		RestAssured.baseURI="https://api.openweathermap.org";
+		
+		String response =given().log().all()
+				.headers("Content-Type","application/json")
+				.param("q",city)
+				.and()
+				.param("appid", apiKey)
+				.when().get("/data/2.5/weather")
+				.then().log().all().assertThat().statusCode(201)
+				.extract().asString();
+		
+		JsonPath js = new JsonPath(response);
+		
+		
+	}
+	
+	
+	
+	
+
+}

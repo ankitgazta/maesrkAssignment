@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-12T23:35:30 IST" name="Default suite" finished-at="2021-12-12T23:35:30 IST" duration-ms="97">
+  <suite started-at="2021-12-13T22:36:57 IST" name="Default suite" finished-at="2021-12-13T22:37:03 IST" duration-ms="5411">
     <groups>
     </groups>
-    <test started-at="2021-12-12T23:35:30 IST" name="Default test" finished-at="2021-12-12T23:35:30 IST" duration-ms="97">
-      <class name="TestCases.TestCasesPilot">
-        <test-method is-config="true" signature="startUp()[pri:0, instance:TestCases.TestCasesPilot@e7edb54]" started-at="2021-12-12T23:35:30 IST" name="startUp" finished-at="2021-12-12T23:35:30 IST" duration-ms="10" status="PASS">
+    <test started-at="2021-12-13T22:36:57 IST" name="Default test" finished-at="2021-12-13T22:37:03 IST" duration-ms="5411">
+      <class name="apiTestCases.WeatherAPI">
+        <test-method signature="getWeatherByUSACityname()[pri:0, instance:apiTestCases.WeatherAPI@4cc8eb05]" started-at="2021-12-13T22:36:57 IST" name="getWeatherByUSACityname" finished-at="2021-12-13T22:37:03 IST" duration-ms="5338" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method signature="bookingAflightAndGettingConfirmationId()[pri:0, instance:TestCases.TestCasesPilot@e7edb54]" started-at="2021-12-12T23:35:30 IST" name="bookingAflightAndGettingConfirmationId" finished-at="2021-12-12T23:35:30 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookingAflightAndGettingConfirmationId -->
-      </class> <!-- TestCases.TestCasesPilot -->
+        </test-method> <!-- getWeatherByUSACityname -->
+      </class> <!-- apiTestCases.WeatherAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
